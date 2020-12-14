@@ -1,21 +1,16 @@
 # Exgit
 
-**TODO: Add description**
+**ExGit: A simple use case of Elixir presented by Rafael Camarda at the Do While event**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exgit` to your list of dependencies in `mix.exs`:
+To run the project, perform the following steps:
+### To download the dependencies
+```mix deps.get```
 
-```elixir
-def deps do
-  [
-    {:exgit, "~> 0.1.0"}
-  ]
-end
-```
+### To run the elixir on command line:
+```iex -S mix```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exgit](https://hexdocs.pm/exgit).
+### To run the main function of the project in the terminal:
+```Exgit.Client.get_repos_by_username("@github_username")```
 
